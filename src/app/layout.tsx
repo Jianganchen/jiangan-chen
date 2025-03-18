@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
+import BeamsBackground from "@/components/beams-background";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -63,6 +64,7 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
+            <BeamsBackground className="fixed inset-0 -z-10 w-full h-screen" />
             {children}
             <Navbar />
           </TooltipProvider>
