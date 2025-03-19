@@ -3,6 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Jiangan Chen",
+  preferedName: "Philip Chen",
   initials: "JC",
   url: "https://philip-chen-jiangan.vercel.app/",
   location: "Gainesville, FL",
@@ -46,7 +47,7 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "jianganchen0209@gmail.com",
+    email: "mailto:jianganchen0209@gmail.com",
     tel: "+1 (352) 328 8199",
     social: {
       GitHub: {
@@ -67,6 +68,13 @@ export const DATA = {
         name: "X",
         url: "https://x.com/PhilipChen89668",
         icon: Icons.x,
+
+        navbar: true,
+      },
+      BuyMeACoffee: {
+        name: "Buy Me A Coffee",
+        url: "https://buymeacoffee.com/jianganchen",
+        icon: Icons.buyMeACoffee,
 
         navbar: true,
       },
