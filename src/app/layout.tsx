@@ -62,7 +62,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <ThemeProvider attribute="class" defaultTheme="light">
+        <ThemeProvider attribute="class" defaultTheme="dark">
           <TooltipProvider delayDuration={0}>
             <BeamsBackground className="fixed inset-0 -z-10 w-full h-screen" />
             {children}
