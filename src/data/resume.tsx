@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Front-end Engineer based in Florida. I enjoy building web apps, contributing to open-source community, and learning new technologies!",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "As a recent Computer Science graduate student, I recently discovered my passion for front-end development and for contributing to the open-source community. In the past, I pursued a double degree in [computer science and economics](/#education), [interned at big tech companies in China](/#work). I'm always actively looking for new opportunities to work on exciting projects and collaborate with talented people.",
   avatarUrl: "/headshot-cropped.jpg",
   skills: [
     "React",
