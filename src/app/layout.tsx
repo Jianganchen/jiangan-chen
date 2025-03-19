@@ -27,6 +27,12 @@ export const metadata: Metadata = {
     siteName: `${DATA.preferedName}`,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "https://i.postimg.cc/QMYK43qG/Arc-3-19-2025-6-34-40-PM.png",
+        alt: `${DATA.preferedName}`,
+      },
+    ],
   },
   robots: {
     index: true,
