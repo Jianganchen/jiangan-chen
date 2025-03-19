@@ -5,7 +5,7 @@ export const DATA = {
   name: "Jiangan Chen",
   preferedName: "Philip Chen",
   initials: "JC",
-  url: "https://philip-chen-jiangan.vercel.app/",
+  url: "https://philip-chen.com",
   location: "Gainesville, FL",
   locationLink: "https://www.google.com/maps/place/gainesville+fl",
   description:
