@@ -193,4 +193,27 @@ export const DATA = {
     },
   ],
   hackathons: [],
+  images: [
+    {
+      src: "/gallery/img1.jpg",
+    },
+    {
+      src: "/gallery/img2.jpg",
+    },
+    {
+      src: "/gallery/img4.jpg",
+    },
+    {
+      src: "/gallery/img5.jpg",
+    },
+    {
+      src: "/gallery/img6.jpg",
+    },
+    {
+      src: "/gallery/img7.png",
+    },
+    {
+      src: "/gallery/img11.png",
+    },
+  ],
 } as const;

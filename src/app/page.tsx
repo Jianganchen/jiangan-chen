@@ -51,12 +51,12 @@ export default function Page() {
       </section>
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 9}>
+          <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 6 + id * 0.02}>
                 <Badge key={skill}>{skill}</Badge>
               </BlurFade>
             ))}
@@ -65,13 +65,13 @@ export default function Page() {
       </section>
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+          <BlurFade delay={BLUR_FADE_DELAY * 7}>
             <h2 className="text-xl font-bold">Work Experience</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade
               key={work.company}
-              delay={BLUR_FADE_DELAY * 6 + id * 0.05}
+              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
             >
               <ResumeCard
                 key={work.company}
@@ -90,13 +90,13 @@ export default function Page() {
       </section>
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 7}>
+          <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Education</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
               key={education.school}
-              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
+              delay={BLUR_FADE_DELAY * 10 + id * 0.05}
             >
               <ResumeCard
                 key={education.school}
@@ -152,6 +152,42 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      <section id="photos">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Gallery
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  I enjoy my life
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  I am lucky to have traveled to many places and had many
+                  amazing experiences.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <div className="columns-2 gap-4 sm:columns-3">
+            {DATA.images.map((image, idx) => (
+              <BlurFade
+                key={image.src}
+                delay={BLUR_FADE_DELAY * 14 + idx * 0.05}
+                inView
+              >
+                <img
+                  className="mb-4 size-full rounded-lg object-contain"
+                  src={image.src}
+                  alt={`image ${idx + 1}`}
+                />
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
       {/* Commenting this out */}
       {/* <section id="hackathons">
         <div className="space-y-12 w-full py-12">
@@ -198,7 +234,7 @@ export default function Page() {
       </section> */}
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 16}>
+          <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <div className="space-y-3">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                 Contact
