@@ -176,7 +176,6 @@ export default function Page() {
               <BlurFade
                 key={image.src}
                 delay={BLUR_FADE_DELAY * 14 + idx * 0.05}
-                inView
               >
                 <img
                   className="mb-4 size-full rounded-lg object-contain"
