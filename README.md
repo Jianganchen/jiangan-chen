@@ -1,10 +1,17 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+<h1 align="center">🧙🏻‍♂️ Portfolio</h1>
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+![README image](https://i.postimg.cc/QMYK43qG/Arc-3-19-2025-6-34-40-PM.png)
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+[![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)](#)
+[![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](#)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)](#)
+[![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff)](#)
+[![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white)](#)
+
+* This is a portfolio website built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+* See the live demo here: [🧙🏻‍♂️PhilipChen](https://philip-chen.com).
+* Built with this public template here: [dillionverma](https://github.com/dillionverma/portfolio).
 
 # Features
 
@@ -19,7 +26,7 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/dillionverma/portfolio
+   git clone https://github.com/Jianganchen/jiangan-chen.git
    ```
 
 2. Move to the cloned directory
