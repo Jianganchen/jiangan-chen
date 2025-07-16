@@ -147,6 +147,42 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Clyro Logo",
+      href: "https://clyro-logo.vercel.app/",
+      dates: "Mar 2025 - May 2025",
+      active: true,
+      description:
+        "This is a fullstack web app that allows users to generate logos using AI. Users can input their text prompts and/or a sketch, and the app will generate a logo based on the input.",
+      technologies: [
+        "React",
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Vercel",
+        "Git",
+        "Figma",
+        "OpenAI",
+        "Convex",
+        "Clerk",
+        "Polar",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://clyro-logo.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jianganchen/clyro-logos",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/clyro-logo.png",
+      video: "",
+    },
+    {
       title: "PawFinder",
       href: "https://paw-finder-sigma.vercel.app/",
       dates: "Feb 2025 - Mar 2025",
@@ -182,7 +218,7 @@ export const DATA = {
       title: "Tiptap Extension",
       href: "https://github.com/Jianganchen/tiptap-extension-mcq",
       dates: "Jan 2025 - Feb 2025",
-      active: true,
+      active: false,
       description:
         "This is another toy project that allows users to create multiple-choice questions in a rich text editor using Tiptap. It also bootsraps a basic AI model to summarize the content.",
       technologies: [
