@@ -227,5 +227,11 @@ export const DATA = {
     {
       src: "/gallery/img11.png",
     },
+    {
+      src: "/gallery/img12.jpg",
+    },
+    {
+      src: "/gallery/img13.jpg",
+    },
   ],
 } as const;
