@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Front-end Engineer based in Florida. I enjoy building web apps, contributing to open-source community, and learning new technologies!",
   summary:
-    "As a recent Computer Science graduate student, I recently discovered my passion for front-end development and for contributing to the open-source community. In the past, I pursued a double degree in [computer science and economics](/#education), [interned at big tech companies in China](/#work). I'm always actively looking for new opportunities to work on exciting projects and collaborate with talented people.",
+    "I'm a solution engineer at company [CodePay](/#work), and I have a great passion for front-end development and for contributing to the open-source community. In the past, I pursued a double degree in [computer science and economics](/#education), [interned at big tech companies in China](/#work). I'm always actively looking for new opportunities to work on exciting projects and collaborate with talented people.",
   avatarUrl: "/headshot-cropped.jpg",
   skills: [
     "React",
@@ -89,6 +89,18 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "CodePay",
+      badges: [],
+      href: "codepay.us",
+      location: "New York, NY",
+      title: "Solution Engineer",
+      logoUrl: "/codepay_inc_logo.jpg",
+      start: "Apr, 2025",
+      end: "present",
+      description:
+        "Developed and maintained the frontend of a SaaS-based payment gateway platform using React, TypeScript, and Tailwind CSS, delivering secure and user-friendly business transaction workflows. Worked closely with product and QA teams in an agile environment to ensure PCI compliance and seamless payment experience. Gained strong familiarity with payment gateway architecture, POS systems, merchant onboarding, and transaction lifecycle (authorization, capture, settlement, refund)",
+    },
     {
       company: "Elite Software",
       badges: [],
