@@ -9,9 +9,9 @@ export const DATA = {
   location: "Gainesville, FL",
   locationLink: "https://www.google.com/maps/place/gainesville+fl",
   description:
-    "Front-end Engineer based in Florida. I enjoy building web apps, contributing to open-source community, and learning new technologies!",
+    "I'm currently based in Atlanta, GA. Now I'm working fulltime in a logistics company, and I'm tackling open problems in graph theory on the side. My goal is to get into a top-tier PhD program in computer science/mathematics.",
   summary:
-    "I'm a solution engineer at company [CodePay](/#work), and I have a great passion for front-end development and for contributing to the open-source community. In the past, I pursued a double degree in [computer science and economics](/#education), [interned at big tech companies in China](/#work). I'm always actively looking for new opportunities to work on exciting projects and collaborate with talented people.",
+    "I was a solution engineer at company [CodePay](/#work), and I have a great passion for front-end development and for contributing to the open-source community. In the past, I pursued a double degree in [computer science and economics](/#education), [interned at big tech companies in China](/#work). I'm always actively looking for new opportunities to work on exciting projects and collaborate with talented people.",
   avatarUrl: "/headshot-cropped.jpg",
   skills: [
     "React",
