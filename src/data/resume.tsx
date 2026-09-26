@@ -6,8 +6,8 @@ export const DATA = {
   preferedName: "Philip Chen",
   initials: "JC",
   url: "https://philip-chen.com",
-  location: "Gainesville, FL",
-  locationLink: "https://www.google.com/maps/place/gainesville+fl",
+  location: "Atlanta, GA",
+  locationLink: "https://www.google.com/maps/place/atlanta+ga",
   description:
     "I'm currently based in Atlanta, GA. Now I'm working fulltime in a logistics company, and I'm tackling open problems in graph theory on the side. My goal is to get into a top-tier PhD program in computer science/mathematics.",
   summary:
